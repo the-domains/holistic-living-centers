@@ -1,29 +1,26 @@
-name: Holistic Living Centers
-favicon: null
-layout_spectrum: 0.698711
-typography_spectrum: 0.3861439
-title: Holistic Living Centers
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
 color:
+  saturation: 0.7305481
+  brandStrength: 0.4981761
+  rhythmicContrast: 0.9220266
   brandColors:
     - '#F1FCFB'
     - '#9AA3A5'
     - '#0E272F'
     - '#88BDE9'
     - '#4280BD'
-  brandStrength: 0.4981761
   lightness: 0.2784942
-  saturation: 0.7305481
-  rhythmicContrast: 0.9220266
-purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.698711
+typography_spectrum: 0.3861439
+name: Holistic Living Centers
